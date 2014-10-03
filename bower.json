@@ -1,0 +1,32 @@
+{
+  "name": "BInTheKnowServer",
+  "version": "0.0.1",
+  "homepage": "http://www.burrows.info",
+  "authors": [
+    "developers@burrows.yr.com"
+  ],
+  "description": "Burrows Server for b.in the know information",
+  "keywords": [
+    "mongo",
+    "express",
+    "angular",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "public/scripts/vendor",
+    "test"
+  ],
+  "dependencies": {
+    "json3": "~3.3.2",
+    "angular": "~1.2.20",
+    "angular-cookies": "~1.2.20",
+    "angular-mocks": "~1.2.20",
+    "angular-resource": "~1.2.20",
+    "angular-route": "~1.2.20",
+    "angular-sanitize": "~1.2.20",
+    "es5-shim": "~4.0.0",
+    "foundation": "~5.3.1"
+  }
+}

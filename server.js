@@ -9,6 +9,7 @@ var server,
 GLOBAL.app = express();
 server = http.Server(app);
 
+require('./app/config/express')();
 routes.getRoutes();
 
 server.listen(config.port);

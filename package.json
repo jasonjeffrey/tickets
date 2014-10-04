@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jasonjeffrey/tickets/issues"
   },
-  "homepage": "https://github.com/jasonjeffrey/tickets"
+  "homepage": "https://github.com/jasonjeffrey/tickets",
+  "dependencies": {
+    "express": "~4.9.5"
+  }
 }

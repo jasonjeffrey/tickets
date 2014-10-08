@@ -13,10 +13,5 @@
     "test",
     "tests"
   ],
-  "dependencies": {
-    "angular-route": "~1.2.26",
-    "angular": "~1.2.26",
-    "jquery": "~2.1.1",
-    "bootstrap-sass": "~3.0.2"
-  }
+  "dependencies": {}
 }

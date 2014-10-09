@@ -4,6 +4,7 @@
   "description": "tickets =======",
   "main": "server.js",
   "scripts": {
+    "test": "grunt test",
     "postinstall": "bower install"
   },
   "repository": {

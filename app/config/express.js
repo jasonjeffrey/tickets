@@ -25,6 +25,6 @@ module.exports = function () {
         .use(bodyParser.json())
         .use(methodOverride());
     if (process.env.NODE_ENV !== 'production') {
-        app.use(errorHandler());
+        GLOBAL.app.use(errorHandler());
     }
 };

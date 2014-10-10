@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - '0.10'
+
+branchs:
+  only:
+  - master
+  - develop
+
+before_install:
+- npm install -g grunt-cli
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: s55TXJiyH5oAaO4tZGOmubHA00FWf7LfqdP9N60nH9XzqcwjAESmr9W/VmVL0py6kQy4jNW+Pk+rDYvFNQjtRZAUcUmeKhrsNcF2USD/JEt7Yytwkh9n+/6qC5PaVLeP3PtTeGgj8tFO2KNSq9egmgLKRfhV/R9rcfc6ADNcP30=
+  app:
+    master: tickets-live
+    develop: tickets-develop

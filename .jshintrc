@@ -29,7 +29,6 @@
     "boss": false,
     "debug": false,
     "eqnull": true,
-    "es5": false,
     "esnext": false,
 
     "evil": false,
@@ -50,7 +49,7 @@
     "supernew": false,
     "validthis": true,
 
-    "browser": true,
+    "browser": false,
     "couch": false,
     "devel": true,
     "dojo": false,
@@ -69,5 +68,5 @@
     "passfail": false,
     "white": true,
 
-    "predef": []
+    "predef": ["module",""]
 }

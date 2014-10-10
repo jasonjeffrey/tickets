@@ -4,11 +4,11 @@ node_js:
 
 branchs:
   only:
-  - master
-  - develop
+    - master
+    - develop
 
 before_install:
-- npm install -g grunt-cli
+  - npm install -g grunt-cli
 
 deploy:
   provider: heroku

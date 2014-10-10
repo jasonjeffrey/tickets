@@ -5,25 +5,35 @@ var path = require('path'),
     env = process.env.NODE_ENV || 'development';
 
 var config = {
-    development: {
-        root: rootPath,
-        app: {
-            name: 'tickets - Local'
-        },
-        loggingLevel: 'dev',
-        port: 3000,
-        db: 'mongodb://localhost/bServerApp-development'
+  development: {
+    root: rootPath,
+    app: {
+      name: 'tickets - Local'
     },
+    loggingLevel: 'dev',
+    port: 3000,
+    db: 'mongodb://localhost/bServerApp-development'
+  },
 
-    production: {
-        root: rootPath,
-        app: {
-            name: 'tickets - Live'
-        },
-        port: process.env.PORT,
-        loggingLevel: 'tiny',
-        db: ''
-    }
+  staging: {
+    root: rootPath,
+    app: {
+      name: 'tickets - Local'
+    },
+    loggingLevel: 'dev',
+    port: process.env.PORT,
+    db: ''
+  },
+
+  production: {
+    root: rootPath,
+    app: {
+      name: 'tickets - Live'
+    },
+    port: process.env.PORT,
+    loggingLevel: 'tiny',
+    db: ''
+  }
 };
 
 module.exports = config[env];

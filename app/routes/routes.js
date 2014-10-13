@@ -8,7 +8,7 @@ module.exports = {
         GLOBAL.app.use(express.static(config.root + '/public'));
 
         GLOBAL.app.get('*', function (req, res) {
-            res.render('index');
+            res.render('seats');
         });
     }
 };

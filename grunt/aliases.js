@@ -1,9 +1,17 @@
 'use strict';
 
 module.exports = function () {
- return {
-     test: [
-         'jshint'
-     ]
- };
+  return {
+    default: [
+      'test',
+      'build'
+
+    ],
+    test: [
+      'jshint'
+    ],
+    build: [
+      'sass:dist'
+    ]
+  };
 };

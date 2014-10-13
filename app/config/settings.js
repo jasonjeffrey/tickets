@@ -18,7 +18,7 @@ var config = {
   staging: {
     root: rootPath,
     app: {
-      name: 'tickets - Local'
+      name: 'tickets - Staging'
     },
     loggingLevel: 'dev',
     port: process.env.PORT,

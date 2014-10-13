@@ -9,6 +9,7 @@ branchs:
 
 before_install:
   - npm install -g grunt-cli
+  - grunt build
 
 deploy:
   provider: heroku

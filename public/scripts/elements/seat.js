@@ -10,6 +10,8 @@
 
             if(availability === AVAILABLE) {
                 sender.setAttribute('availability', SELECTED);
+            } else if (availability === SELECTED) {
+                sender.setAttribute('availability', AVAILABLE);
             }
         }
     });

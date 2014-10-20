@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = function () {
   return {
     options: {
@@ -13,7 +15,7 @@ module.exports = function () {
           ext: '.css'
       }]
     }
-  }
+  };
 };
 
 

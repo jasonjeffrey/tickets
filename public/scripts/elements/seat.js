@@ -1,7 +1,8 @@
 (function () {
+    'use strict';
+
     var AVAILABLE = 'available',
-        SELECTED = 'selected',
-        BOOKED = 'booked';
+        SELECTED = 'selected';
 
 
     Polymer('seat-element', {

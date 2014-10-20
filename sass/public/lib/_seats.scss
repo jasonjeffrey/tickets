@@ -1,0 +1,20 @@
+.seats-row {
+  height: 30px;
+  margin-top: 5px;
+
+  & > div {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.seat {
+  background: #2B542B;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.space {
+  width: 20px;
+}

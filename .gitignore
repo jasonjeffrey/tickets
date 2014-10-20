@@ -1,5 +1,6 @@
 node_modules/
 .idea/
 public/scripts/vendor/
+public/styles/
 
 npm-debug.log

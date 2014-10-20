@@ -1,0 +1,23 @@
+<link rel="import" href="../scripts/vendor/polymer/polymer.html">
+<link rel="import" href="seat.html">
+
+<polymer-element name="seating-plan" noscript>
+    <template>
+        <link rel="stylesheet" href="/styles/elements/seating-plan.css">
+        <div class="seating-container">
+            <div class="seats-row">
+                <seat-element></seat-element>
+                <seat-element></seat-element>
+                <seat-element availability="booked"></seat-element>
+                <seat-element availability="booked"></seat-element>
+                <seat-element></seat-element>
+                <div class="space"></div>
+                <seat-element></seat-element>
+                <seat-element availability="booked"></seat-element>
+                <seat-element availability="booked"></seat-element>
+                <seat-element availability="booked"></seat-element>
+                <seat-element></seat-element>
+            </div>
+        </div>
+    </template>
+</polymer-element>

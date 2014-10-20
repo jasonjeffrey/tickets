@@ -13,5 +13,8 @@
     "test",
     "tests"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.4.2",
+    "bootstrap-sass-official": "3.2.0"
+  }
 }

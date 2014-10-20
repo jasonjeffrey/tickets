@@ -1,0 +1,19 @@
+:host {
+  border-radius: 10px;
+  display: inline-block;
+  height: 30px;
+  margin-right: 5px;
+  width: 30px;
+}
+
+:host([availability=available]) {
+  background: #2B542B;
+}
+
+:host([availability=selected]) {
+  background: #C0A16B;
+}
+
+:host([availability=booked]) {
+  background: #D9534F;
+}

@@ -1,0 +1,14 @@
+.seats-row {
+  height: 30px;
+  margin-top: 5px;
+
+  & > div {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.space {
+  width: 20px;
+}

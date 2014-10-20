@@ -2,10 +2,13 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Tickets</title>
-</head>
-<body ng-app="ticketsApp">
-<div class="app" ng-view=""></div>
+    <title>{{title}}</title>
+    {{> styles}}
+    {{> headScripts}}
+    {{> polymerImports}}
+<body>
+
 {{{body}}}
 </body>
 </html>
+        

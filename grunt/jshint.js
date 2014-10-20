@@ -9,7 +9,8 @@ module.exports = function () {
       'Gruntfile.js',
       'app/**/*.*',
       'grunt/**/*.*',
-      '!app/views/**/*.*'
+      'public/scripts/elements/**/*',
+      '!app/views/**/*'
     ]
   };
 };
